@@ -1,0 +1,60 @@
+perl-MP3-Info
+-------------------------------------------
+This is MP3::Info, for getting info out of and into MP3 files.
+
+A wrapper module is included so scripts calling MPEG::MP3Info 
+(the old name) will still work.
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.92-1
+  make-3.80-1
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~daniel/MP3-Info/
+
+Canonical download:
+  http://www.cpan.org/authors/id/D/DA/DANIEL/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-MP3-Info-1.20-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-MP3-Info-1.20-1.cygport all
+
+This will create:
+  /usr/src/perl-MP3-Info-1.20-1-src.tar.bz2
+  /usr/src/perl-MP3-Info-1.20-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-MP3-Info.sh
+  /usr/lib/perl5/vendor_perl/5.8/MP3/Info.pm
+  /usr/lib/perl5/vendor_perl/5.8/MPEG/MP3Info.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/MP3/Info/.packlist
+  /usr/share/doc/Cygwin/perl-MP3-Info-1.20.README
+  /usr/share/doc/perl-MP3-Info-1.20/Changes
+  /usr/share/doc/perl-MP3-Info-1.20/README
+  /usr/share/man/man3/MP3.Info.3pm.gz
+  /usr/share/man/man3/MPEG.MP3Info.3pm.gz
+  /usr/share/perl/cygwin-pods/MP3-Info.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.20-1 -----
+Version bump.
+
+----- version 1.02-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
