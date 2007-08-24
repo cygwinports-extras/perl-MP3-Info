@@ -1,7 +1,4 @@
 category: Perl
 requires: cygwin perl
 sdesc: "Perl module for getting info out of and into MP3 files"
-ldesc: "This is MP3-Info, for getting info out of and into MP3 files.
-
-A wrapper module is included so scripts calling MPEG-MP3Info
-(the old name) will still work."
+ldesc: "This is MP3-Info, for getting info out of and into MP3 files."
