@@ -1,4 +1,4 @@
 category: Perl
-requires: cygwin perl
+requires: perl
 sdesc: "Perl module for getting info out of and into MP3 files"
 ldesc: "This is MP3-Info, for getting info out of and into MP3 files."
