@@ -1,0 +1,11 @@
+CPAN_AUTHOR=daniel
+inherit perl
+
+NAME="perl-MP3-Info"
+VERSION=1.24
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module for getting info out of and into MP3 files"
+DESCRIPTION="This is MP3-Info, for getting info out of and into MP3 files."
+
+ARCH=noarch
